@@ -15,8 +15,8 @@ const getWeather = () => {
 
 
       //get the weather here
-      const proxy = 'https://cors-anywhere.herokuapp.com/';
-      const api = `${proxy}https://api.darksky.net/forecast/ec7b465b01b0b3388e7d84819c9c8ec1/${lat},${long}`
+      // const proxy = 'https://cors-anywhere.herokuapp.com/';
+      const api = `https://api.darksky.net/forecast/ec7b465b01b0b3388e7d84819c9c8ec1/${lat},${long}`
       let response = await fetch(api);
       let data = await response.json(); 
       console.log(data);
