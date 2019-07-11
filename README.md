@@ -1,4 +1,7 @@
 # Simple Weather app
-#### Utilizes Darksky API and Skycons
-Gets the weather for your location
+Gets your current weather in your location.
+
+## Built with
+Pulls data from the Darksky API
+Vanilla JS
 
